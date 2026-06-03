@@ -1,0 +1,24 @@
+# Register a Windows scheduled task to run run_daily.ps1 every morning at 6:00.
+# Usage: run  .\register_schedule.ps1  in PowerShell.
+
+$taskName = "EichiRadioDeadReckoning"
+$script   = Join-Path $PSScriptRoot "run_daily.ps1"
+
+$action   = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$script`""
+$trigger  = New-ScheduledTaskTrigger -Daily -At ([DateTime]::Today.AddHours(6))
+$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+
+$params = @{
+    TaskName    = $taskName
+    Action      = $action
+    Trigger     = $trigger
+    Settings    = $settings
+    Description = "Eichi Radio Dead Reckoning - daily 6:00 auto generation"
+    Force       = $true
+}
+Register-ScheduledTask @params
+
+Write-Host "OK: task '$taskName' registered to run daily at 06:00."
+Write-Host "  check:  Get-ScheduledTask -TaskName $taskName"
+Write-Host "  run now: Start-ScheduledTask -TaskName $taskName"
+Write-Host "  remove: Unregister-ScheduledTask -TaskName $taskName -Confirm:`$false"

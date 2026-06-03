@@ -1,0 +1,21 @@
+# --- 無料スタック（デフォルト） ---
+edge-tts>=6.1.0          # 音声: 完全無料・キー不要
+google-genai>=0.3.0      # 台本: Gemini 無料枠
+
+# --- 共通 ---
+feedparser>=6.0.11
+feedgen>=1.0.0
+python-dotenv>=1.0.1
+PyYAML>=6.0.2
+mutagen>=1.47.0
+requests>=2.32.0
+
+# --- 有料スタックを使う場合のみ ---
+anthropic>=0.40.0        # script.provider = claude
+openai>=1.40.0           # tts.provider = openai
+
+# --- 声クローン (tts.provider = xtts) を使う場合のみ ---
+# coqui-tts          # XTTS-v2 本体（PyTorchを含む大型）
+# lameenc            # WAV->MP3 エンコード（ffmpeg不要）
+# cutlet             # 日本語の読み変換
+# fugashi[unidic-lite]  # 日本語形態素解析

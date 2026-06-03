@@ -1,0 +1,18 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+# 生成途中の一時ファイル
+data/tmp/
+_gen_*.txt
+_run.txt
+logs/
+# 声サンプル（個人データ）は公開しない
+voice/
+# ルート直下の録音/音声ソースも念のため除外
+/*.m4a
+/*.wav
+/*.aac
+/*.wma

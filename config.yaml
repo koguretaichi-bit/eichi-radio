@@ -1,0 +1,66 @@
+# ===== 叡智ラジオ Dead Reckoning 設定 =====
+# このファイルを編集すれば番組の挙動を変えられます。
+
+podcast:
+  title: "叡智ラジオ Dead Reckoning"
+  subtitle: "古典の知恵で毎日のニュースを読み解く"
+  description: >
+    GPSがなかった時代、航海士は過去の位置と速度から現在地を割り出した——デッド・レコニング。
+    古典の知恵を羅針盤に、今日世界で起きていることを読み解く、完全AI自動生成のラジオ番組。
+    賢者役と聞き手役の対話で、10〜20分でお届けします。
+  author: "あなたの名前"            # ← Spotify に表示される著者名
+  email: "you@example.com"          # ← 連絡先（Podcast登録に必要）
+  language: "ja"
+  category: "Society & Culture"
+  explicit: false
+  cover_image: "cover.jpg"          # docs/ に置く 1400x1400〜3000x3000 の正方形JPG/PNG
+
+  # ★重要★ GitHub Pages の公開URL（末尾スラッシュなし）
+  # 例: https://taro.github.io/eichi-radio
+  base_url: "https://koguretaichi-bit.github.io/eichi-radio"
+
+script:
+  # provider: "gemini"(無料・クレカ不要) / "claude"(Anthropic API・要クレジット)
+  provider: "gemini"
+  # gemini: gemini-2.5-flash(無料枠) / claude: claude-sonnet-4-6 など
+  model: "gemini-2.5-flash"
+  target_minutes: 15
+  sage_name: "賢者"
+  learner_name: "聞き手"
+
+tts:
+  # provider: "edge"(無料・キー不要) / "xtts"(無料・自分の声クローン) / "openai"(要クレジット)
+  provider: "xtts"
+  speed: 1.0
+  # --- edge (無料) 用の声。日本語ニューラル音声 ---
+  edge_sage_voice: "ja-JP-KeitaNeural"     # 賢者(男性)
+  edge_learner_voice: "ja-JP-NanamiNeural" # 聞き手(女性)
+  # --- xtts (無料・声クローン) 用 ---
+  xtts_sage_wav: "voice/sage.wav"        # 賢者＝あなたの声サンプル(wav/mp3/m4a可)
+  # 聞き手の声: "edge"=女性ニューラル(Nanami,高速クリーン) / "clone"=別サンプルをクローン
+  xtts_learner_mode: "edge"
+  xtts_learner_wav: "voice/learner.wav"  # clone のとき使う別サンプル
+  xtts_threads: 2                        # 8GB環境の安定化（増やすと速いが不安定化リスク）
+  # 日本語の安定化パラメータ（必要なら微調整）
+  xtts_temperature: 0.7
+  xtts_repetition_penalty: 5.0
+  xtts_top_k: 50
+  xtts_top_p: 0.85
+  # --- openai (有料) 用の声 ---
+  openai_model: "tts-1-hd"   # tts-1 / tts-1-hd / gpt-4o-mini-tts
+  openai_sage_voice: "onyx"  # alloy/echo/fable/onyx/nova/shimmer
+  openai_learner_voice: "nova"
+
+news:
+  pick_count: 1       # 1日に取り上げるニュースの数
+  # APIキー不要のRSSフィードからランダムに拾います。自由に追加・削除可。
+  feeds:
+    - "https://www3.nhk.or.jp/rss/news/cat0.xml"   # NHK 主要
+    - "https://www3.nhk.or.jp/rss/news/cat6.xml"   # NHK 国際
+    - "https://www3.nhk.or.jp/rss/news/cat3.xml"   # NHK 科学・文化
+    - "https://feeds.bbci.co.uk/news/world/rss.xml" # BBC World
+    - "https://feeds.npr.org/1004/rss.xml"          # NPR World
+
+publish:
+  auto_git_push: true    # 生成後に自動で git commit & push（GitHub Pages反映）
+  git_branch: "main"

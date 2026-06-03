@@ -1,0 +1,64 @@
+{
+  "episodes": [
+    {
+      "id": "ep-20260602-2319",
+      "title": "量子の調和：単子論が示す最善の計算世界",
+      "filename": "ep-20260602-2319.mp3",
+      "pubdate": "2026-06-02T23:19:03.051182+00:00",
+      "duration": 487,
+      "bytes": 2925216,
+      "show_notes": "現代の最先端技術である量子コンピューターの飛躍的な進歩が報じられました。その信頼性向上は、哲学者のライプニッツが提唱した「単子論」における「予定調和」や「最善世界」といった概念と、どのように響き合うのでしょうか。古代の知が、未来の計算世界を読み解きます。",
+      "classic_title": "monadology / 単子論",
+      "classic_author": "ライプニッツ",
+      "news": [
+        {
+          "title": "Microsoft says new quantum chip 1,000 times more reliable than predecessor",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cj4p7gyvp52o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "id": "ep-20260602-2337",
+      "title": "エボラ流行と『韓非子』：危機管理における「法」「術」「勢」",
+      "filename": "ep-20260602-2337.mp3",
+      "pubdate": "2026-06-02T23:37:16.729894+00:00",
+      "duration": 449,
+      "bytes": 2696256,
+      "show_notes": "コンゴ民主共和国で報じられているエボラ出血熱の流行を巡り、今日の『叡智ラジオ Dead Reckoning』では、古代中国の思想家・韓非の著書『韓非子』を古典のレンズとして用います。感染症という危機に際して、いかにして人々を統治し、社会を維持していくのか。『韓非子』が説く「法」「術」「勢」そして「信賞必罰」の考え方から、現代の課題を読み解きます。",
+      "classic_title": "韓非子",
+      "classic_author": "韓非",
+      "news": [
+        {
+          "title": "Confirmed Ebola cases in Congo near 300 as survivors describe their recoveries",
+          "source": "NPR Topics: World",
+          "link": "https://www.npr.org/2026/06/01/g-s1-125143/ebola-updates"
+        }
+      ]
+    },
+    {
+      "id": "ep-20260602-2343",
+      "title": "人は信なくば立たず：古典に学ぶビジネスの信頼学",
+      "filename": "ep-20260602-2343.mp3",
+      "pubdate": "2026-06-02T23:43:26.610730+00:00",
+      "duration": 495,
+      "bytes": 2971872,
+      "show_notes": "本日の『叡智ラジオ Dead Reckoning』では、ビジネスパーソンにとって不可欠な「信頼」をテーマに、古代中国の賢人、孔子の言葉が収められた『論語』を読み解きます。信頼の築き方から、一度失われた信頼を取り戻すまでの道のりを、古典の知恵を通して深く考察します。",
+      "classic_title": "論語",
+      "classic_author": "孔子",
+      "news": []
+    },
+    {
+      "id": "ep-20260603-0132",
+      "title": "アウフヘーベン",
+      "filename": "ep-20260603-0132.mp3",
+      "pubdate": "2026-06-03T01:32:45.823227+00:00",
+      "duration": 1030,
+      "bytes": 6185472,
+      "show_notes": "GPSのなかった時代の航海術『デッド・レコニング』。過去の確かな知から、現代を読み解くこの番組。今回は、ヘーゲルの『アウフヘーベン（止揚）』という概念を、東洋の古典『易経』の智慧と合わせて考察し、日々の意思決定や人生の葛藤にどう活かせるのかを探ります。",
+      "classic_title": "精神現象学",
+      "classic_author": "ゲオルク・ヴィルヘルム・フリードリヒ・ヘーゲル",
+      "news": []
+    }
+  ]
+}
