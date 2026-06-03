@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Jun 2026 02:26:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 02:39:19 +0000</lastBuildDate>
     <itunes:author>あなたの名前</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -25,39 +25,12 @@
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
     <item>
-      <title>海洋の境界線、柔と剛の哲学</title>
-      <description>東シナ海での海洋境界画定交渉を巡り、日本とフィリピンに中国と台湾が反発。この緊迫した状況を、古代中国の賢者・老子の「無為自然」や「柔よく剛を制す」という思想のレンズで読み解きます。明確な主張と介入が求められる現代において、老子の教えが示す「止揚」の視点とは何でしょうか。</description>
-      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260603-0226.mp3</guid>
-      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260603-0226.mp3" length="3155328" type="audio/mpeg"/>
-      <pubDate>Wed, 03 Jun 2026 02:26:07 +0000</pubDate>
-      <itunes:duration>8:45</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>人は信なくば立たず：古典に学ぶビジネスの信頼学</title>
-      <description>本日の『叡智ラジオ Dead Reckoning』では、ビジネスパーソンにとって不可欠な「信頼」をテーマに、古代中国の賢人、孔子の言葉が収められた『論語』を読み解きます。信頼の築き方から、一度失われた信頼を取り戻すまでの道のりを、古典の知恵を通して深く考察します。</description>
-      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260602-2343.mp3</guid>
-      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260602-2343.mp3" length="2971872" type="audio/mpeg"/>
-      <pubDate>Tue, 02 Jun 2026 23:43:26 +0000</pubDate>
-      <itunes:duration>8:15</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>エボラ流行と『韓非子』：危機管理における「法」「術」「勢」</title>
-      <description>コンゴ民主共和国で報じられているエボラ出血熱の流行を巡り、今日の『叡智ラジオ Dead Reckoning』では、古代中国の思想家・韓非の著書『韓非子』を古典のレンズとして用います。感染症という危機に際して、いかにして人々を統治し、社会を維持していくのか。『韓非子』が説く「法」「術」「勢」そして「信賞必罰」の考え方から、現代の課題を読み解きます。</description>
-      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260602-2337.mp3</guid>
-      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260602-2337.mp3" length="2696256" type="audio/mpeg"/>
-      <pubDate>Tue, 02 Jun 2026 23:37:16 +0000</pubDate>
-      <itunes:duration>7:29</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
-    <item>
-      <title>量子の調和：単子論が示す最善の計算世界</title>
-      <description>現代の最先端技術である量子コンピューターの飛躍的な進歩が報じられました。その信頼性向上は、哲学者のライプニッツが提唱した「単子論」における「予定調和」や「最善世界」といった概念と、どのように響き合うのでしょうか。古代の知が、未来の計算世界を読み解きます。</description>
-      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260602-2319.mp3</guid>
-      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260602-2319.mp3" length="2925216" type="audio/mpeg"/>
-      <pubDate>Tue, 02 Jun 2026 23:19:03 +0000</pubDate>
-      <itunes:duration>8:07</itunes:duration>
+      <title>「姿なき議員」と『風姿花伝』が示す、信頼の「時分の花」と「まことの花」</title>
+      <description>BBCニュースの「姿が見えない共和党議員がトランプ氏の推薦で予備選に勝利した」という報道を題材に、世阿弥の『風姿花伝』から「秘すれば花」「初心忘るべからず」「時分の花とまことの花」という概念を紐解きます。ビジネスにおける信頼構築において、一時的な人気や外部の力に頼る「時分の花」と、本質的な価値から生まれる「まことの花」をどう見極め、育むべきかを探ります。明日の仕事で実践できる、信頼を築くための具体的な視点と問いを提示します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260603-0238.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260603-0238.mp3" length="3564576" type="audio/mpeg"/>
+      <pubDate>Wed, 03 Jun 2026 02:38:31 +0000</pubDate>
+      <itunes:duration>9:54</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
