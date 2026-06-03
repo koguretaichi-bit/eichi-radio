@@ -25,8 +25,8 @@ script:
   # gemini: gemini-2.5-flash(無料枠) / claude: claude-sonnet-4-6 など
   model: "gemini-2.5-flash"
   target_minutes: 15
-  sage_name: "賢者"
-  learner_name: "聞き手"
+  sage_name: "先生"
+  learner_name: "ミシェル"
 
 tts:
   # provider: "edge"(無料・キー不要) / "xtts"(無料・自分の声クローン) / "openai"(要クレジット)

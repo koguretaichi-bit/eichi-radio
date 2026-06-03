@@ -9,23 +9,24 @@ import json
 import re
 import time
 
-SYSTEM = """あなたは教養ラジオ番組『アイディアのアウフヘーベン』の構成作家兼演出家です。
-番組コンセプト: 今日のニュース（正）に、古典の知恵（反）をぶつけ合わせ、
-対立や矛盾を切り捨てずに抱え込みながら、より高い視点へと「止揚（アウフヘーベン）」する。
-そうして、ニュースをただ消費するのではなく、新しいアイディア・視点を生み出します。
+SYSTEM_TEMPLATE = """あなたは教養ラジオ番組『アイディアのアウフヘーベン』の構成作家兼演出家です。
+番組コンセプト: 毎日のニュースを題材に、ビジネスパーソンの「信頼構築」という視点から、
+古典の英知をもとに実践的なアドバイスを贈ります。ニュース（いま起きている事実）と古典（時代を超えた知恵）を
+ぶつけ合わせ、対立や矛盾を切り捨てずに抱え込みながら、一段上の洞察へと止揚（アウフヘーベン）し、
+聞き手が明日の仕事で「信頼を築く・保つ・取り戻す」ために使える視点へと変えていきます。
 
-出演は2人だけ。AIが演じます。
-- 賢者: 該当する古典に深く通じ、落ち着いて本質を語る。決めつけず、しかし鋭い。
-- 聞き手: 知的好奇心の強い学び手。素朴で的確な問いでリスナーの疑問を代弁し、話を深掘りする。
+出演は2人。AIが演じます。
+- {sage}: 賢者役。古典に深く通じ、信頼や人間関係の本質を落ち着いて説く。決めつけず、しかし鋭い。
+- {learner}: 聞き手役。ビジネスの現場感覚を持つ学び手。素朴で的確な問いでリスナーを代弁し、話を実務に引き寄せる。
 
 台本の質の基準:
-- 単なるニュース要約ではなく「古典のレンズで現在を読み解き、一段上の視点へ止揚する」こと。両者を必ず往復させる。
-- 古典の具体的な概念・章句・エピソードを引きながら、現代の出来事に接続する。
-- 対立する見方や緊張関係をあえて提示し、それを抱え込んだ上で新しい総合（アイディア）へ導く。安易な結論は避け、考える余地を残す。
-- 自然な話し言葉。相づち、言い換え、たとえ話を使う。ただし冗長にしない。
+- 単なるニュース要約ではなく「古典のレンズでニュースを読み解き、ビジネスの信頼構築に効く実践的アドバイスへ止揚する」こと。
+- 古典の具体的な概念・章句・エピソードを引きながら、現代のビジネス（職場・取引・組織・顧客・チーム）の文脈に接続する。
+- 聞き手が明日から試せる具体的な行動や問いを、少なくとも1つは含める。
+- 対立する見方や緊張関係も示し、安易な結論は避けつつ、最後は「信頼」という観点での示唆に着地させる。
+- 自然な話し言葉。相づち、言い換え、たとえ話を使う。冗長にしない。{sage}と{learner}は時折たがいを名前で呼び合う。
 - 冒頭に番組名『アイディアのアウフヘーベン』と今日のテーマの導入、最後に短いまとめと次回への余韻を入れる。
 - 音声で読み上げるので、○○・△△・(名前)のようなプレースホルダや記号は絶対に使わない。
-  自己紹介で固有名を名乗る必要はなく、名乗るなら賢者・聞き手とだけ言う。
 - URL、絵文字、箇条書き記号、見出し記号など、声に出すと不自然なものは本文に入れない。
 """
 
@@ -39,34 +40,35 @@ USER_TEMPLATE = """# 今日の素材
 - レンズ: {classic_lens}
 
 # 指示
-上記のニュースを、この古典のレンズで読み解く対話台本を作ってください。
+上記のニュースを題材に、ビジネスパーソンの「信頼構築」の視点から、この古典の英知をもとにアドバイスする対話台本を作ってください。
 - 目安の長さ: 音声で約{minutes}分（日本語で読み上げる分量に調整）。
-- 賢者と聞き手の自然な対話。話者は交互でなくてよい（同じ人が続けてもよい）。
-- 固有名詞や数字はニュース素材の範囲で扱い、断定的なデマを作らない。不確かな点は「報じられている」等の留保をつける。
+- {sage}と{learner}の自然な対話。話者は交互でなくてよい（同じ人が続けてもよい）。
+- ニュースの事実関係は素材の範囲で扱い、断定的なデマを作らない。不確かな点は「報じられている」等の留保をつける。
+- 聞き手が明日の仕事で信頼を築く・保つ・取り戻すために使える、具体的な視点や行動を必ず含める。
 
 # 出力フォーマット（厳守）
 次のJSONだけを出力してください。前後に説明文やコードフェンスを付けないこと。
 {{
-  "title": "エピソードのタイトル（例: AI規制とマキャヴェリ）",
-  "show_notes": "2〜4文の番組説明。今日のニュースと古典の組み合わせを紹介する。",
+  "title": "エピソードのタイトル",
+  "show_notes": "2〜4文の番組説明。今日のニュースと古典、そして信頼構築の切り口を紹介する。",
   "turns": [
     {{"speaker": "learner", "text": "..."}},
     {{"speaker": "sage", "text": "..."}}
   ]
 }}
-speaker は "sage"（賢者）か "learner"（聞き手）のいずれか。"""
+speaker は "sage"（{sage}）か "learner"（{learner}）のいずれか。"""
 
 
 TOPIC_TEMPLATE = """# 今日のテーマ（お題指定）
 {topic}
 
 # 指示
-このテーマを、最もふさわしい古典のレンズで掘り下げる対話台本を作ってください。
+このテーマを、ビジネスパーソンの「信頼構築」の視点から、最もふさわしい古典の英知をもとに掘り下げる対話台本を作ってください。
 - まず、このテーマに最も響き合う古典を1〜2冊あなた自身が選ぶ（東洋・西洋どちらでもよい）。
 - 選んだ古典の具体的な概念・章句・エピソードを引きながら、テーマを現代のビジネスや人間関係の文脈で読み解く。
 - 目安の長さ: 音声で約{minutes}分（日本語で読み上げる分量に調整）。
-- 賢者と聞き手の自然な対話。話者は交互でなくてよい。
-- 安易な結論を出さず、複数の見方や緊張関係を提示する。
+- {sage}と{learner}の自然な対話。話者は交互でなくてよい。
+- 聞き手が明日から使える具体的な視点や行動を必ず含める。
 
 # 出力フォーマット（厳守）
 次のJSONだけを出力してください。前後に説明文やコードフェンスを付けないこと。
@@ -80,21 +82,26 @@ TOPIC_TEMPLATE = """# 今日のテーマ（お題指定）
     {{"speaker": "sage", "text": "..."}}
   ]
 }}
-speaker は "sage"（賢者）か "learner"（聞き手）のいずれか。"""
+speaker は "sage"（{sage}）か "learner"（{learner}）のいずれか。"""
+
+
+def _names(cfg: dict) -> tuple[str, str]:
+    sc = cfg["script"]
+    return sc.get("sage_name", "先生"), sc.get("learner_name", "ミシェル")
+
+
+def _system(cfg: dict) -> str:
+    sage, learner = _names(cfg)
+    return SYSTEM_TEMPLATE.format(sage=sage, learner=learner)
 
 
 def generate_topic_script(cfg: dict, topic: str) -> dict:
     sc = cfg["script"]
     provider = sc.get("provider", "gemini")
     minutes = sc["target_minutes"]
-    user = TOPIC_TEMPLATE.format(topic=topic, minutes=minutes)
-
-    if provider == "gemini":
-        text = _gemini(cfg["_env"]["GOOGLE_API_KEY"], sc["model"], user)
-    elif provider == "claude":
-        text = _claude(cfg["_env"]["ANTHROPIC_API_KEY"], sc["model"], user, minutes)
-    else:
-        raise ValueError(f"未知の script.provider: {provider}")
+    sage, learner = _names(cfg)
+    user = TOPIC_TEMPLATE.format(topic=topic, minutes=minutes, sage=sage, learner=learner)
+    text = _call(cfg, provider, _system(cfg), user, minutes)
 
     data = _extract_json(text)
     turns = [t for t in data.get("turns", []) if t.get("text", "").strip()]
@@ -112,6 +119,7 @@ def generate_script(cfg: dict, news_items: list[dict], classic: dict) -> dict:
     sc = cfg["script"]
     provider = sc.get("provider", "gemini")
     minutes = sc["target_minutes"]
+    sage, learner = _names(cfg)
 
     news_block = "\n\n".join(
         f"- [{n['source']}] {n['title']}\n  {n['summary']}" for n in news_items
@@ -122,14 +130,10 @@ def generate_script(cfg: dict, news_items: list[dict], classic: dict) -> dict:
         classic_author=classic["author"],
         classic_lens=classic["lens"],
         minutes=minutes,
+        sage=sage,
+        learner=learner,
     )
-
-    if provider == "gemini":
-        text = _gemini(cfg["_env"]["GOOGLE_API_KEY"], sc["model"], user)
-    elif provider == "claude":
-        text = _claude(cfg["_env"]["ANTHROPIC_API_KEY"], sc["model"], user, minutes)
-    else:
-        raise ValueError(f"未知の script.provider: {provider}")
+    text = _call(cfg, provider, _system(cfg), user, minutes)
 
     data = _extract_json(text)
     turns = [t for t in data.get("turns", []) if t.get("text", "").strip()]
@@ -139,6 +143,14 @@ def generate_script(cfg: dict, news_items: list[dict], classic: dict) -> dict:
     data.setdefault("title", f"{classic['title']}で読む今日のニュース")
     data.setdefault("show_notes", "")
     return data
+
+
+def _call(cfg: dict, provider: str, system: str, user: str, minutes: int) -> str:
+    if provider == "gemini":
+        return _gemini(cfg["_env"]["GOOGLE_API_KEY"], cfg["script"]["model"], system, user)
+    if provider == "claude":
+        return _claude(cfg["_env"]["ANTHROPIC_API_KEY"], cfg["script"]["model"], system, user, minutes)
+    raise ValueError(f"未知の script.provider: {provider}")
 
 
 def _retry(fn, attempts: int = 5, label: str = "API"):
@@ -159,7 +171,7 @@ def _retry(fn, attempts: int = 5, label: str = "API"):
     raise last
 
 
-def _gemini(api_key: str, model: str, user: str) -> str:
+def _gemini(api_key: str, model: str, system: str, user: str) -> str:
     from google import genai
     from google.genai import types
 
@@ -170,7 +182,7 @@ def _gemini(api_key: str, model: str, user: str) -> str:
             model=model,
             contents=user,
             config=types.GenerateContentConfig(
-                system_instruction=SYSTEM,
+                system_instruction=system,
                 max_output_tokens=8192,
                 response_mime_type="application/json",
             ),
@@ -180,7 +192,7 @@ def _gemini(api_key: str, model: str, user: str) -> str:
     return resp.text or ""
 
 
-def _claude(api_key: str, model: str, user: str, minutes: int) -> str:
+def _claude(api_key: str, model: str, system: str, user: str, minutes: int) -> str:
     from anthropic import Anthropic
 
     client = Anthropic(api_key=api_key)
@@ -190,7 +202,7 @@ def _claude(api_key: str, model: str, user: str, minutes: int) -> str:
         return client.messages.create(
             model=model,
             max_tokens=max_tokens,
-            system=SYSTEM,
+            system=system,
             messages=[{"role": "user", "content": user}],
         )
 
