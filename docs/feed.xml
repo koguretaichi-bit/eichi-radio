@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>叡智ラジオ Dead Reckoning</title>
+    <title>アイディアのアウフヘーベン</title>
     <link>https://koguretaichi-bit.github.io/eichi-radio</link>
-    <description>GPSがなかった時代、航海士は過去の位置と速度から現在地を割り出した——デッド・レコニング。 古典の知恵を羅針盤に、今日世界で起きていることを読み解く、完全AI自動生成のラジオ番組。 賢者役と聞き手役の対話で、10〜20分でお届けします。</description>
+    <description>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</description>
     <atom:link href="https://koguretaichi-bit.github.io/eichi-radio/feed.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
       <url>https://koguretaichi-bit.github.io/eichi-radio/cover.jpg</url>
-      <title>叡智ラジオ Dead Reckoning</title>
+      <title>アイディアのアウフヘーベン</title>
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Jun 2026 02:15:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 02:25:03 +0000</lastBuildDate>
     <itunes:author>あなたの名前</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -22,17 +22,8 @@
       <itunes:name>あなたの名前</itunes:name>
       <itunes:email>you@example.com</itunes:email>
     </itunes:owner>
-    <itunes:subtitle>古典の知恵で毎日のニュースを読み解く</itunes:subtitle>
-    <itunes:summary>GPSがなかった時代、航海士は過去の位置と速度から現在地を割り出した——デッド・レコニング。 古典の知恵を羅針盤に、今日世界で起きていることを読み解く、完全AI自動生成のラジオ番組。 賢者役と聞き手役の対話で、10〜20分でお届けします。</itunes:summary>
-    <item>
-      <title>アウフヘーベン</title>
-      <description>GPSのなかった時代の航海術『デッド・レコニング』。過去の確かな知から、現代を読み解くこの番組。今回は、ヘーゲルの『アウフヘーベン（止揚）』という概念を、東洋の古典『易経』の智慧と合わせて考察し、日々の意思決定や人生の葛藤にどう活かせるのかを探ります。</description>
-      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260603-0132.mp3</guid>
-      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260603-0132.mp3" length="6185472" type="audio/mpeg"/>
-      <pubDate>Wed, 03 Jun 2026 01:32:45 +0000</pubDate>
-      <itunes:duration>17:10</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+    <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
+    <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
     <item>
       <title>人は信なくば立たず：古典に学ぶビジネスの信頼学</title>
       <description>本日の『叡智ラジオ Dead Reckoning』では、ビジネスパーソンにとって不可欠な「信頼」をテーマに、古代中国の賢人、孔子の言葉が収められた『論語』を読み解きます。信頼の築き方から、一度失われた信頼を取り戻すまでの道のりを、古典の知恵を通して深く考察します。</description>
