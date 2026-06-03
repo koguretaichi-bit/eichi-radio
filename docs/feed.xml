@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Jun 2026 02:25:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 02:26:52 +0000</lastBuildDate>
     <itunes:author>あなたの名前</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>海洋の境界線、柔と剛の哲学</title>
+      <description>東シナ海での海洋境界画定交渉を巡り、日本とフィリピンに中国と台湾が反発。この緊迫した状況を、古代中国の賢者・老子の「無為自然」や「柔よく剛を制す」という思想のレンズで読み解きます。明確な主張と介入が求められる現代において、老子の教えが示す「止揚」の視点とは何でしょうか。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260603-0226.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260603-0226.mp3" length="3155328" type="audio/mpeg"/>
+      <pubDate>Wed, 03 Jun 2026 02:26:07 +0000</pubDate>
+      <itunes:duration>8:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>人は信なくば立たず：古典に学ぶビジネスの信頼学</title>
       <description>本日の『叡智ラジオ Dead Reckoning』では、ビジネスパーソンにとって不可欠な「信頼」をテーマに、古代中国の賢人、孔子の言葉が収められた『論語』を読み解きます。信頼の築き方から、一度失われた信頼を取り戻すまでの道のりを、古典の知恵を通して深く考察します。</description>
