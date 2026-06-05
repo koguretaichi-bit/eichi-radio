@@ -17,6 +17,24 @@
           "link": "https://www.bbc.com/news/articles/c5y7nnjlrd5o?at_medium=RSS&at_campaign=rss"
         }
       ]
+    },
+    {
+      "id": "ep-20260605-2300",
+      "title": "絶望の砂漠と、志という羅針盤 ～困難を乗り越える信頼の基盤～",
+      "filename": "ep-20260605-2300.mp3",
+      "pubdate": "2026-06-05T23:00:03.258914+00:00",
+      "duration": 545,
+      "bytes": 3272112,
+      "show_notes": "サハラ砂漠で起きた悲劇的なニュース。トラックの故障で50人近くが命を落とした報を受け、私たちはビジネスにおける「予期せぬ危機」にどう向き合うべきか考えます。古典『言志四録』の「志」と「学び続ける姿勢」というレンズを通して、リーダーシップとチームの信頼構築に不可欠な視点を探求し、明日から実践できるアドバイスへと止揚していきます。",
+      "classic_title": "言志四録",
+      "classic_author": "佐藤一斎",
+      "news": [
+        {
+          "title": "Nearly 50 people die of thirst in Sahara desert after lorry breaks down",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/c62r2ldyejro?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }

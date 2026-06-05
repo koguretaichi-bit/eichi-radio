@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Jun 2026 02:49:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 23:00:41 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>絶望の砂漠と、志という羅針盤 ～困難を乗り越える信頼の基盤～</title>
+      <description>サハラ砂漠で起きた悲劇的なニュース。トラックの故障で50人近くが命を落とした報を受け、私たちはビジネスにおける「予期せぬ危機」にどう向き合うべきか考えます。古典『言志四録』の「志」と「学び続ける姿勢」というレンズを通して、リーダーシップとチームの信頼構築に不可欠な視点を探求し、明日から実践できるアドバイスへと止揚していきます。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260605-2300.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260605-2300.mp3" length="3272112" type="audio/mpeg"/>
+      <pubDate>Fri, 05 Jun 2026 23:00:03 +0000</pubDate>
+      <itunes:duration>9:05</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>「姿なき議員」と『風姿花伝』が示す、信頼の「時分の花」と「まことの花」</title>
       <description>BBCニュースの「姿が見えない共和党議員がトランプ氏の推薦で予備選に勝利した」という報道を題材に、世阿弥の『風姿花伝』から「秘すれば花」「初心忘るべからず」「時分の花とまことの花」という概念を紐解きます。ビジネスにおける信頼構築において、一時的な人気や外部の力に頼る「時分の花」と、本質的な価値から生まれる「まことの花」をどう見極め、育むべきかを探ります。明日の仕事で実践できる、信頼を築くための具体的な視点と問いを提示します。</description>
