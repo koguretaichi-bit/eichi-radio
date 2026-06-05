@@ -1,5 +1,9 @@
 # Wrapper invoked by the scheduled task for daily generation.
-$ErrorActionPreference = "Stop"
+# NOTE: Do NOT use ErrorActionPreference="Stop" here. With *>> redirection in
+# Windows PowerShell 5.1, any stderr line from python (Google/gRPC libs emit
+# warnings to stderr) becomes a NativeCommandError that aborts the run. We rely
+# on $LASTEXITCODE for success/failure instead.
+$ErrorActionPreference = "Continue"
 Set-Location -Path $PSScriptRoot
 
 # Environment variables to keep XTTS (voice clone) stable
