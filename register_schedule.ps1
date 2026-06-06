@@ -6,7 +6,9 @@ $script   = Join-Path $PSScriptRoot "run_daily.ps1"
 
 $action   = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$script`""
 $trigger  = New-ScheduledTaskTrigger -Daily -At ([DateTime]::Today.AddHours(6))
-$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+# -WakeToRun: wake the PC from sleep at 6:00. -StartWhenAvailable: if it was fully
+# powered off, run as soon as the PC is next available (catch up the missed day).
+$settings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
 
 $params = @{
     TaskName    = $taskName
