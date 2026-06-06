@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Jun 2026 23:00:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 22:13:11 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>制御不能な世界で「信頼」を築く：マルクス・アウレリウスが説く義務と平静</title>
+      <description>今日のニュースは、国際情勢の不確実さを象徴する出来事。そんな制御不能な現実に直面するビジネスパーソンが、いかにして信頼を築き、保ち、取り戻すか。今回は古典『自省録』から、ストア哲学の知恵、「制御できるものとできないもの」というレンズを通して、実践的なヒントを探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260606-2212.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260606-2212.mp3" length="3444912" type="audio/mpeg"/>
+      <pubDate>Sat, 06 Jun 2026 22:12:30 +0000</pubDate>
+      <itunes:duration>9:34</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>絶望の砂漠と、志という羅針盤 ～困難を乗り越える信頼の基盤～</title>
       <description>サハラ砂漠で起きた悲劇的なニュース。トラックの故障で50人近くが命を落とした報を受け、私たちはビジネスにおける「予期せぬ危機」にどう向き合うべきか考えます。古典『言志四録』の「志」と「学び続ける姿勢」というレンズを通して、リーダーシップとチームの信頼構築に不可欠な視点を探求し、明日から実践できるアドバイスへと止揚していきます。</description>
