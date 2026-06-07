@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import re
 import time
+from pathlib import Path
 
 SYSTEM_TEMPLATE = """あなたは教養ラジオ番組『アイディアのアウフヘーベン』の構成作家兼演出家です。
 番組コンセプト: 毎日のニュースを題材に、ビジネスパーソンの「信頼構築」という視点から、
@@ -111,6 +112,93 @@ def generate_topic_script(cfg: dict, topic: str) -> dict:
     data.setdefault("title", topic)
     data.setdefault("classic_title", "（古典）")
     data.setdefault("classic_author", "")
+    data.setdefault("show_notes", "")
+    return data
+
+
+DAILY_TEMPLATE = """# 今日のニュース候補
+{news_block}
+
+# 古典の候補リスト（参考。ここに無い有名古典を選んでもよい）
+{classics_block}
+
+# 指示（最重要: こじつけ厳禁）
+あなたの最初の仕事は「最も強く結びつくニュース×古典の組み合わせを選ぶ」ことです。
+1. 上のニュース候補それぞれについて、どの古典の知恵と本質的に重なるかを内心で吟味する。
+2. その中で、表面的な単語の一致ではなく、**原理・構造・人間の本質のレベルで深く重なる**ペアを1組だけ選ぶ。
+   - 例の良い結びつき: 「権力者の失脚ニュース×君主論の運と力量」「組織の隠蔽ニュース×論語の信」。
+   - 弱い/こじつけの結びつき（避ける）: 単に『戦い』という語が共通するだけ、など。
+3. もしどのペアも結びつきが弱いと感じたら、リスト外の古典を自由に選んでよい。とにかく「無理筋」を出さないこと。
+4. 選んだ理由が、聞き手にとって「なるほど、確かに繋がる」と腑に落ちることを最優先する。
+
+そのうえで、選んだニュースを、選んだ古典の英知をもとに、ビジネスパーソンの「信頼構築」の視点から読み解く対話台本を作ってください。
+- 冒頭の早い段階で「なぜこのニュースとこの古典が結びつくのか」を、{sage}が自然に・説得力をもって示す。
+- 目安の長さ: 音声で約{minutes}分。{sage}と{learner}の自然な対話。
+- ニュースの事実は候補の範囲で扱い、断定的なデマを作らない。不確かな点は留保をつける。
+- 聞き手が明日の仕事で信頼を築く・保つ・取り戻すために使える、具体的な視点や行動を必ず含める。
+
+# 出力フォーマット（厳守）
+次のJSONだけを出力してください。前後に説明文やコードフェンスを付けないこと。
+{{
+  "news_index": 選んだニュースの番号(1始まりの整数),
+  "connection": "このニュースとこの古典が本質的に結びつく理由を1〜2文で（番組では言い換えて使う）",
+  "classic_title": "選んだ古典の書名",
+  "classic_author": "その著者",
+  "title": "エピソードのタイトル",
+  "show_notes": "2〜4文の番組説明。ニュースと古典、信頼構築の切り口を紹介する。",
+  "turns": [
+    {{"speaker": "learner", "text": "..."}},
+    {{"speaker": "sage", "text": "..."}}
+  ]
+}}
+speaker は "sage"（{sage}）か "learner"（{learner}）のいずれか。"""
+
+
+def _load_classics_block() -> str:
+    path = Path(__file__).resolve().parent.parent / "data" / "classics.json"
+    with open(path, "r", encoding="utf-8") as f:
+        classics = json.load(f)
+    return "\n".join(f"- {c['title']}（{c['author']}）: {c['lens']}" for c in classics)
+
+
+def generate_daily_script(cfg: dict, news_candidates: list[dict]) -> dict:
+    """複数のニュース候補からAIに最も結びつく古典との組み合わせを選ばせ、台本を作る。
+    返り値に news_index（選ばれた候補の番号）を含む。"""
+    sc = cfg["script"]
+    provider = sc.get("provider", "gemini")
+    minutes = sc["target_minutes"]
+    sage, learner = _names(cfg)
+
+    news_block = "\n\n".join(
+        f"{i+1}. [{n['source']}] {n['title']}\n   {n['summary']}"
+        for i, n in enumerate(news_candidates)
+    )
+    user = DAILY_TEMPLATE.format(
+        news_block=news_block,
+        classics_block=_load_classics_block(),
+        minutes=minutes,
+        sage=sage,
+        learner=learner,
+    )
+    text = _call(cfg, provider, _system(cfg), user, minutes)
+
+    data = _extract_json(text)
+    turns = [t for t in data.get("turns", []) if t.get("text", "").strip()]
+    if not turns:
+        raise RuntimeError("台本のturnsが空でした。モデル出力:\n" + text[:1000])
+    data["turns"] = turns
+
+    idx = data.get("news_index", 1)
+    try:
+        idx = int(idx)
+    except (TypeError, ValueError):
+        idx = 1
+    idx = min(max(idx, 1), len(news_candidates))
+    data["selected_news"] = news_candidates[idx - 1]
+
+    data.setdefault("classic_title", "（古典）")
+    data.setdefault("classic_author", "")
+    data.setdefault("title", "今日のニュースと古典")
     data.setdefault("show_notes", "")
     return data
 

@@ -50,20 +50,23 @@ def main() -> int:
         classic = {"title": script["classic_title"], "author": script["classic_author"]}
         print(f"   📚 選ばれた古典: {classic['title']}（{classic['author']}）")
     else:
-        # 1. ニュース
-        print("[1/5] ニュースを取得中...")
-        news_items = news_mod.pick_news(cfg["news"]["feeds"], cfg["news"]["pick_count"])
-        for n in news_items:
+        # 1. ニュース候補を複数取得
+        candidate_count = cfg["news"].get("candidate_count", 6)
+        print(f"[1/5] ニュース候補を{candidate_count}件取得中...")
+        candidates = news_mod.pick_news(cfg["news"]["feeds"], candidate_count)
+        for n in candidates:
             print(f"   📰 [{n['source']}] {n['title']}")
 
-        # 2. 古典
-        print("[2/5] 古典を選択中...")
-        classic = classics_mod.pick_classic(state_mod.recent_classic_titles(st))
-        print(f"   📚 {classic['title']}（{classic['author']}）")
-
-        # 3. 台本
+        # 2-3. AIが「最も結びつくニュース×古典」を選び、台本を生成
+        print("[2/5] 最も結びつく古典の組み合わせをAIが選択")
         print(f"[3/5] 台本を生成中（{cfg['script']['provider']}）...")
-        script = script_gen.generate_script(cfg, news_items, classic)
+        script = script_gen.generate_daily_script(cfg, candidates)
+        classic = {"title": script["classic_title"], "author": script["classic_author"]}
+        news_items = [script["selected_news"]]
+        print(f"   📰 選ばれたニュース: {news_items[0]['title']}")
+        print(f"   📚 選ばれた古典: {classic['title']}（{classic['author']}）")
+        if script.get("connection"):
+            print(f"   🔗 つながり: {script['connection']}")
 
     if args.title:
         script["title"] = args.title

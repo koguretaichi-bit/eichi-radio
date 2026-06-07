@@ -52,7 +52,8 @@ tts:
   openai_learner_voice: "nova"
 
 news:
-  pick_count: 1       # 1日に取り上げるニュースの数
+  candidate_count: 6  # 取得するニュース候補数。AIがこの中から古典と最も結びつく1件を選ぶ
+  pick_count: 1       # (旧設定・未使用)
   # APIキー不要のRSSフィードからランダムに拾います。自由に追加・削除可。
   feeds:
     - "https://www3.nhk.or.jp/rss/news/cat0.xml"   # NHK 主要
