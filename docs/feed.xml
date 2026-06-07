@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jun 2026 06:41:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 21:01:03 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>予期せぬ危機にこそ問われる信頼 ～マルクス・アウレリウス『自省録』に学ぶ～</title>
+      <description>今回の『アイディアのアウフヘーベン』では、サッカー選手のエリクセン選手が試合中に倒れたニュースから、古代ローマの哲人皇帝マルクス・アウレリウスの『自省録』を紐解きます。予期せぬ危機に直面した時、私たちは何に心を乱されず、何に集中すべきなのか。ビジネスパーソンが、予測不能な状況下で「信頼を築く・保つ・取り戻す」ための実践的な視点を探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260607-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260607-2100.mp3" length="2282832" type="audio/mpeg"/>
+      <pubDate>Sun, 07 Jun 2026 21:00:35 +0000</pubDate>
+      <itunes:duration>6:20</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>愛される君主か、恐れられる君主か？ 信頼のリアルとマキャヴェリの知恵</title>
       <description>アルメニアの総選挙を巡る国際情勢と国内の混乱から、リーダーシップにおける信頼構築の本質を探ります。マキャヴェリの『君主論』をひも解き、「愛されること」と「恐れられること」の間に揺れる現代のビジネスリーダーたちが、いかにして確固たる信頼を築き、維持していくべきかを考察します。</description>
