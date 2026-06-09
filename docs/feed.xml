@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jun 2026 21:01:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 21:01:31 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>「沈黙の質」が問う信頼 〜習主席訪朝から学ぶ『論語』の「信」〜</title>
+      <description>今日のニュースは、中国の習近平国家主席が北朝鮮訪問を終えたものの、核開発への言及がなかったことで国際社会に懸念が広がっているというものです。この国際政治における不透明さを、孔子の『論語』が説く「信」の概念から読み解き、ビジネスパーソンが明日から実践できる「信頼構築」の視点へと止揚します。言葉だけでなく「沈黙」が信頼にどう影響するか、深く掘り下げていきましょう。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260609-2101.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260609-2101.mp3" length="2170512" type="audio/mpeg"/>
+      <pubDate>Tue, 09 Jun 2026 21:01:06 +0000</pubDate>
+      <itunes:duration>6:01</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>予期せぬ危機にこそ問われる信頼 ～マルクス・アウレリウス『自省録』に学ぶ～</title>
       <description>今回の『アイディアのアウフヘーベン』では、サッカー選手のエリクセン選手が試合中に倒れたニュースから、古代ローマの哲人皇帝マルクス・アウレリウスの『自省録』を紐解きます。予期せぬ危機に直面した時、私たちは何に心を乱されず、何に集中すべきなのか。ビジネスパーソンが、予測不能な状況下で「信頼を築く・保つ・取り戻す」ための実践的な視点を探ります。</description>
