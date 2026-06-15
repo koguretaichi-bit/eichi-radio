@@ -125,6 +125,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260611/k10015147721000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260615-2103",
+      "title": "見せかけの徳と本物の信頼：マキャヴェリが現代リーダーに問うもの",
+      "filename": "ep-20260615-2103.mp3",
+      "pubdate": "2026-06-15T21:03:11.822439+00:00",
+      "duration": 459,
+      "bytes": 2759904,
+      "show_notes": "今週は、トランプ大統領の誕生日ニュースから、マキャヴェリの『君主論』をひも解きます。リーダーのパフォーマンスは、人々の信頼を一時的に獲得するのでしょうか？それとも、本質的な信頼の基盤となるのでしょうか？現代ビジネスにおける「見せ方」と「本質」のバランスについて、古典の知恵から深掘りします。",
+      "classic_title": "君主論",
+      "classic_author": "ニッコロ・マキャヴェリ",
+      "news": [
+        {
+          "title": "Trump celebrates 80th birthday with Iran deal and UFC fights at the White House",
+          "source": "NPR Topics: World",
+          "link": "https://www.npr.org/2026/06/15/nx-s1-5858610/trump-birthday-ufc-white-house"
+        }
+      ]
     }
   ]
 }

@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Jun 2026 21:00:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 21:03:41 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>見せかけの徳と本物の信頼：マキャヴェリが現代リーダーに問うもの</title>
+      <description>今週は、トランプ大統領の誕生日ニュースから、マキャヴェリの『君主論』をひも解きます。リーダーのパフォーマンスは、人々の信頼を一時的に獲得するのでしょうか？それとも、本質的な信頼の基盤となるのでしょうか？現代ビジネスにおける「見せ方」と「本質」のバランスについて、古典の知恵から深掘りします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260615-2103.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260615-2103.mp3" length="2759904" type="audio/mpeg"/>
+      <pubDate>Mon, 15 Jun 2026 21:03:11 +0000</pubDate>
+      <itunes:duration>7:39</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>H3ロケットの再起と『論語』に学ぶ、失敗から信頼を取り戻す道</title>
       <description>今日の『アイディアのアウフヘーベン』では、去年の打ち上げ失敗からの再起をかける日本のH3ロケットのニュースを取り上げます。この挑戦を、孔子の『論語』が説く「過ちて改めざる、是を過ちという」という教えと結びつけ、失敗した時にいかにして信頼を築き直すか、そのための実践的な知恵を探ります。ビジネスの現場で誰もが経験するであろう「失敗」にどう向き合い、信頼を保ち、あるいは取り戻すか、深掘りしていきます。</description>
