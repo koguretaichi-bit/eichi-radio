@@ -241,7 +241,7 @@ def _call(cfg: dict, provider: str, system: str, user: str, minutes: int) -> str
     raise ValueError(f"未知の script.provider: {provider}")
 
 
-def _retry(fn, attempts: int = 5, label: str = "API"):
+def _retry(fn, attempts: int = 8, label: str = "API"):
     """一時的なサーバ混雑（503/429/500）にリトライで耐える。"""
     last = None
     for attempt in range(1, attempts + 1):
@@ -253,7 +253,7 @@ def _retry(fn, attempts: int = 5, label: str = "API"):
             last = e
             if not transient or attempt == attempts:
                 raise
-            wait = min(2 ** attempt, 30)
+            wait = min(2 ** attempt, 60)
             print(f"   ⚠ {label}再試行 {attempt}/{attempts}: {msg.splitlines()[0][:60]} → {wait}s待機")
             time.sleep(wait)
     raise last

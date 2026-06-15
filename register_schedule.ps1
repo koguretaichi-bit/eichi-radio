@@ -8,7 +8,9 @@ $action   = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProf
 $trigger  = New-ScheduledTaskTrigger -Daily -At ([DateTime]::Today.AddHours(6))
 # -WakeToRun: wake the PC from sleep at 6:00. -StartWhenAvailable: if it was fully
 # powered off, run as soon as the PC is next available (catch up the missed day).
-$settings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+# -RestartCount/-RestartInterval: if a run fails (e.g. Gemini 503), retry up to 3
+# times, 20 min apart — rides out transient model/network outages.
+$settings = New-ScheduledTaskSettingsSet -WakeToRun -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 20)
 
 $params = @{
     TaskName    = $taskName

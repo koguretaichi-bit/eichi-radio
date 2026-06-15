@@ -22,4 +22,7 @@ $log = Join-Path $logDir ("run-" + (Get-Date -Format "yyyyMMdd") + ".log")
 
 "=== $(Get-Date -Format s) start ===" | Out-File -FilePath $log -Append -Encoding utf8
 & $python -X utf8 -u -m src.main *>> $log
-"=== $(Get-Date -Format s) end (exit $LASTEXITCODE) ===" | Out-File -FilePath $log -Append -Encoding utf8
+$code = $LASTEXITCODE
+"=== $(Get-Date -Format s) end (exit $code) ===" | Out-File -FilePath $log -Append -Encoding utf8
+# Propagate python's exit code so Task Scheduler sees failures and can retry.
+exit $code
