@@ -215,6 +215,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260620/k10015154941000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260621-2100",
+      "title": "歴史の傷と「信」の回復：奴隷貿易謝罪要求から学ぶ信頼の構造",
+      "filename": "ep-20260621-2100.mp3",
+      "pubdate": "2026-06-21T21:00:50.488741+00:00",
+      "duration": 475,
+      "bytes": 2851920,
+      "show_notes": "アフリカとカリブ諸国が過去の奴隷貿易に対する正式な謝罪と賠償を求めるニュースから、古典『論語』の「信」の精神を読み解きます。ビジネスパーソンが、過去の過ちから学び、失った信頼を回復し、未来の関係性を築くための誠実な行動について深く掘り下げます。",
+      "classic_title": "論語",
+      "classic_author": "孔子",
+      "news": [
+        {
+          "title": "African and Caribbean nations call for formal apology for transatlantic slavery",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cm2rl8z5x7no?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }
