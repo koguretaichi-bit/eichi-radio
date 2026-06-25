@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Jun 2026 21:03:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 21:01:46 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>見えぬ信頼を築く術：核合意の対立から学ぶビジネス交渉の現実</title>
+      <description>国連核監視機関がイランの核施設査察を表明する一方で、イラン側は「最終合意後」と譲らないというニュース。この対立から、私たちはマキャヴェリの『君主論』に立ち返ります。ビジネスの現場で、言葉だけの信頼に頼らず、いかに実効性のある合意を構築し、信頼を確かなものにするか、その実践的な視点を深掘りします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260625-2101.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260625-2101.mp3" length="2784096" type="audio/mpeg"/>
+      <pubDate>Thu, 25 Jun 2026 21:01:17 +0000</pubDate>
+      <itunes:duration>7:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>金塊密輸と『韓非子』〜ルールが築く信頼と、破られた時の代償</title>
       <description>今日の『アイディアのアウフヘーベン』は、人形に隠された金塊密輸事件のニュースから、古典『韓非子』の知恵を借りて「信頼構築」のヒントを探ります。法やルールがいかにビジネスの基盤となる信頼を支えるのか、そして、それを破った時に何が失われるのか。現代ビジネスに活かせる視点をお届けします。</description>

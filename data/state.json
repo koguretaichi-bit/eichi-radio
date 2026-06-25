@@ -269,6 +269,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260624/k10015158541000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260625-2101",
+      "title": "見えぬ信頼を築く術：核合意の対立から学ぶビジネス交渉の現実",
+      "filename": "ep-20260625-2101.mp3",
+      "pubdate": "2026-06-25T21:01:17.429268+00:00",
+      "duration": 464,
+      "bytes": 2784096,
+      "show_notes": "国連核監視機関がイランの核施設査察を表明する一方で、イラン側は「最終合意後」と譲らないというニュース。この対立から、私たちはマキャヴェリの『君主論』に立ち返ります。ビジネスの現場で、言葉だけの信頼に頼らず、いかに実効性のある合意を構築し、信頼を確かなものにするか、その実践的な視点を深掘りします。",
+      "classic_title": "君主論",
+      "classic_author": "マキャヴェリ",
+      "news": [
+        {
+          "title": "U.N. nuclear chief says inspectors will visit Iran, but Iran says only after final deal",
+          "source": "NPR Topics: World",
+          "link": "https://www.npr.org/2026/06/24/g-s1-129770/iran-nuclear-inspection"
+        }
+      ]
     }
   ]
 }
