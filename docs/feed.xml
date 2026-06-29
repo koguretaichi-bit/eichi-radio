@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Jun 2026 21:04:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 21:01:06 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>日本棋院の赤字と『貞観政要』に学ぶ組織の信頼構築</title>
+      <description>老舗の組織が赤字に苦しみ、新リーダーが改革を急ぐニュースは、ビジネスにおける「信頼構築」の難しさを浮き彫りにします。今回は、囲碁の日本棋院のニュースを取り上げ、唐の太宗と臣下の対話が記された古典『貞観政要』の知恵を紐解きます。創業と守成、そして組織の信頼をいかに築き、維持していくか。現代のビジネスパーソンが明日から使える視点をお届けします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260629-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260629-2100.mp3" length="2577600" type="audio/mpeg"/>
+      <pubDate>Mon, 29 Jun 2026 21:00:37 +0000</pubDate>
+      <itunes:duration>7:09</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>漏洩する機密、揺らぐ「信」～論語が示す信頼の重み～</title>
       <description>元国家安全保障担当補佐官ジョン・ボルトン氏の機密文書不正取り扱いに関するニュースを題材に、私たちは「信頼」について考えます。孔子の「論語」が説く「信」の概念から、組織や個人の行動が信頼にどう影響するかを深掘りし、ビジネスパーソンが明日から実践できる信頼構築のヒントを探ります。</description>
