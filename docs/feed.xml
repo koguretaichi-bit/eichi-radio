@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 30 Jun 2026 21:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 21:01:16 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>『データ操作と組織の信頼：孔子の「信」に学ぶ』</title>
+      <description>中部電力による浜岡原発のデータ不正問題は、組織の信頼がいかに脆いかを示しています。この問題から、私たちは孔子の『論語』に立ち返り、「信」という概念が現代ビジネスの信頼構築にどう活かせるかを考えます。嘘や隠蔽が組織に与える影響と、真の信頼を取り戻すための視点を探求します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260701-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260701-2100.mp3" length="2614464" type="audio/mpeg"/>
+      <pubDate>Wed, 01 Jul 2026 21:00:38 +0000</pubDate>
+      <itunes:duration>7:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>大義名分と信頼の狭間：『君主論』で読む億万長者の失墜</title>
       <description>壮大な理想を掲げながら、投資詐欺で終焉を迎えた億万長者のニュース。この事件をマキャヴェリの『君主論』のレンズを通して読み解きます。大義名分と実態の乖離が信頼にどう影響するか、そして私たちビジネスパーソンが言葉と行動の間に信頼を築くための実践的なヒントを探ります。</description>
