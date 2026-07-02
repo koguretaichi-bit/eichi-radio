@@ -359,6 +359,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260701/k10015166151000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260702-2102",
+      "title": "組織の『信』を守る決断～バチカンの破門に学ぶ信頼構築の深淵",
+      "filename": "ep-20260702-2102.mp3",
+      "pubdate": "2026-07-02T21:02:05.463998+00:00",
+      "duration": 386,
+      "bytes": 2319984,
+      "show_notes": "教養ラジオ番組『アイディアのアウフヘーベン』。今日のニュースは、バチカンがカトリック教会の宗派を破門したという話題。この一見遠いニュースから、孔子の『論語』が説く「民は信なくば立たず」という知恵を借りて、ビジネスパーソンが組織や顧客との「信頼」を築き、保ち、そして厳しい決断を下す際のリーダーシップについて深く掘り下げていきます。",
+      "classic_title": "論語",
+      "classic_author": "孔子",
+      "news": [
+        {
+          "title": "Vatican excommunicates followers of global Catholic sect",
+          "source": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c5yz95188jjo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }
