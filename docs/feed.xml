@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Jul 2026 21:02:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 21:01:40 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>不確実な時代の信頼構築術～デカルトの懐疑が導く透明性～</title>
+      <description>福島第一原発の核燃料デブリ取り出しは、人類が直面する極めて困難で不確実なプロジェクトです。今日の放送では、このニュースをルネ・デカルトの『方法序説』というレンズを通して読み解きます。不確実な状況下でこそ求められる「疑う」という姿勢が、いかにビジネスにおける信頼構築に繋がるのか、具体的な視点を探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260703-2101.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260703-2101.mp3" length="2352240" type="audio/mpeg"/>
+      <pubDate>Fri, 03 Jul 2026 21:01:14 +0000</pubDate>
+      <itunes:duration>6:32</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>組織の『信』を守る決断～バチカンの破門に学ぶ信頼構築の深淵</title>
       <description>教養ラジオ番組『アイディアのアウフヘーベン』。今日のニュースは、バチカンがカトリック教会の宗派を破門したという話題。この一見遠いニュースから、孔子の『論語』が説く「民は信なくば立たず」という知恵を借りて、ビジネスパーソンが組織や顧客との「信頼」を築き、保ち、そして厳しい決断を下す際のリーダーシップについて深く掘り下げていきます。</description>
