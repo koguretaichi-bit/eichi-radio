@@ -449,6 +449,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260706/k10015170191000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260707-2100",
+      "title": "嘘をついた国営放送、その謝罪の先に「信」はあるか？",
+      "filename": "ep-20260707-2100.mp3",
+      "pubdate": "2026-07-07T21:00:57.157342+00:00",
+      "duration": 451,
+      "bytes": 2708064,
+      "show_notes": "ハンガリーの国営放送が「嘘をついて申し訳ない」と謝罪したニュースは、情報時代の「信頼」のあり方を問いかけます。今回のエピソードでは、古典『論語』の「信なくば立たず」の教えを紐解きながら、組織や個人が信頼を失った時にどう向き合い、いかにして信頼を再構築していくべきか、ビジネスパーソンが明日から実践できる視点を探ります。",
+      "classic_title": "論語",
+      "classic_author": "孔子",
+      "news": [
+        {
+          "title": "Hungary's public news broadcasts halted in bid to scrap Orban-era propaganda",
+          "source": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cgevwq1pndgo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }
