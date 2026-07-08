@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Jul 2026 21:01:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 21:02:15 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>見えざる不正と組織の信頼：『韓非子』に学ぶ統治の「術」</title>
+      <description>ナイジェリア大統領府で架空機関が設立され、資金が調達された疑いがあるというニュース。この組織を揺るがす不祥事を、古代中国の法家思想を代表する『韓非子』の視点から読み解きます。リーダーシップと組織の「信頼構築」にとって、見えない部分での不正をいかに防ぎ、健全な組織を保つか、その実践的な知恵を探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260708-2101.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260708-2101.mp3" length="2694672" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Jul 2026 21:01:44 +0000</pubDate>
+      <itunes:duration>7:29</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>嘘をついた国営放送、その謝罪の先に「信」はあるか？</title>
       <description>ハンガリーの国営放送が「嘘をついて申し訳ない」と謝罪したニュースは、情報時代の「信頼」のあり方を問いかけます。今回のエピソードでは、古典『論語』の「信なくば立たず」の教えを紐解きながら、組織や個人が信頼を失った時にどう向き合い、いかにして信頼を再構築していくべきか、ビジネスパーソンが明日から実践できる視点を探ります。</description>
