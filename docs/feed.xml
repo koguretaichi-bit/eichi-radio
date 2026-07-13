@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Jul 2026 21:01:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 21:01:27 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>「信なくば立たず」〜東電文書管理問題から学ぶ、信頼構築の肝</title>
+      <description>教養ラジオ番組『アイディアのアウフヘーベン』。今回は東京電力の秘密文書管理が不適切だったというニュースを取り上げ、孔子の『論語』に記された「信なくば立たず」という言葉を頼りに、現代ビジネスにおける信頼構築の本質に迫ります。組織や個人が、いかにして信頼を築き、保ち、そして高めていくべきか、明日から実践できるヒントを探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260713-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260713-2100.mp3" length="2741328" type="audio/mpeg"/>
+      <pubDate>Mon, 13 Jul 2026 21:00:47 +0000</pubDate>
+      <itunes:duration>7:36</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>見えざる義務と信頼の土台：『論語』に学ぶビジネスの『信』</title>
       <description>スマホオプションの長期支払いトラブルが相次ぐニュースから、私たちはビジネスにおける「信頼構築」のヒントを探ります。今回のテーマは、孔子の『論語』が説く「信」の教え。企業と顧客の関係において、真の信頼を築き、維持するためには何が必要なのか。現代のビジネスパーソンが明日から実践できる「信」の視点へとアウフヘーベンしていきます。</description>
