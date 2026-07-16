@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 15 Jul 2026 21:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 21:01:25 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>「影の船団」を撃て！見えないリスクが信頼を破壊する</title>
+      <description>今日の『アイディアのアウフヘーベン』は、ウクライナ軍が攻撃する「影の船団」のニュースから、古典『孫子』の知恵を紐解きます。見えないところで生じる「グレーゾーン」の活動が、なぜ信頼構築にとって致命的な脆弱性となるのか。現代ビジネスにおける「影」を照らし出し、明日から使える実践的な視点を提供します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260716-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260716-2100.mp3" length="2222928" type="audio/mpeg"/>
+      <pubDate>Thu, 16 Jul 2026 21:00:56 +0000</pubDate>
+      <itunes:duration>6:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>AIが築く見えない信頼：『孫子』に学ぶ危機管理の知恵</title>
       <description>今日の『アイディアのアウフヘーベン』は、政府がAIを活用して重要システムのぜい弱性を点検するニュースを取り上げます。この最先端の技術が、実は古代中国の兵法書『孫子』の知恵と深く結びつくことを先生が解説。サイバー攻撃という見えない脅威から、いかにして私たちの「信頼」を守り、ビジネスに活かすかを探ります。</description>
