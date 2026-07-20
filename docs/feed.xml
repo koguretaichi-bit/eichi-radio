@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Jul 2026 21:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 21:01:18 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>中東緊迫化と原油高から学ぶ「信頼のリアリズム」〜マキャヴェリと現代ビジネス</title>
+      <description>中東情勢の緊迫化とそれに伴う原油価格の高騰は、国際社会の不確実性を浮き彫りにしています。この状況を、ニッコロ・マキャヴェリの『君主論』のレンズを通して読み解き、国家間の「信頼」と「不信」がビジネスパーソンの信頼構築にどう応用できるのか、その現実的な視点を探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260720-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260720-2100.mp3" length="2204064" type="audio/mpeg"/>
+      <pubDate>Mon, 20 Jul 2026 21:00:52 +0000</pubDate>
+      <itunes:duration>6:07</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>黒澤明の解任劇から学ぶ、信頼を保つリーダーシップの『現実』</title>
       <description>名監督・黒澤明が映画『トラ・トラ・トラ！』から解任されたニュース。この衝撃的な出来事を、マキャベリの『君主論』の視点から紐解きます。リーダーとして信頼を築き、維持するためには、理想だけでなく現実を直視し、時に厳しい選択を迫られることがあります。現代ビジネスにおける「信頼構築」のヒントを探ります。</description>
