@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Jul 2026 21:01:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 21:01:37 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>憎悪を避ける者だけが、信頼を得るのか？〜ナイジェリア警察官の賄賂要求と『君主論』〜</title>
+      <description>今日の『アイディアのアウフヘーベン』は、ナイジェリアで起きた警察官による賄賂要求事件を取り上げます。この事件を、権力と民衆の信頼関係を考察したマキャヴェリの『君主論』の視点から読み解き、ビジネスの現場で「信頼を築き、維持する」ための実践的なヒントを導き出します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260721-2101.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260721-2101.mp3" length="2530656" type="audio/mpeg"/>
+      <pubDate>Tue, 21 Jul 2026 21:01:06 +0000</pubDate>
+      <itunes:duration>7:01</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>中東緊迫化と原油高から学ぶ「信頼のリアリズム」〜マキャヴェリと現代ビジネス</title>
       <description>中東情勢の緊迫化とそれに伴う原油価格の高騰は、国際社会の不確実性を浮き彫りにしています。この状況を、ニッコロ・マキャヴェリの『君主論』のレンズを通して読み解き、国家間の「信頼」と「不信」がビジネスパーソンの信頼構築にどう応用できるのか、その現実的な視点を探ります。</description>
