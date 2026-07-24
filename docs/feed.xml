@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Jul 2026 21:01:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 21:01:17 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>AI時代の「信」の力 ～国会のAI活用に見る信頼構築の極意～</title>
+      <description>効率化の波は国会にも。AIが法案や想定問答を作成する時代、私たちは何に「信」を置けば良いのでしょうか？ 今回は、最新ニュースを孔子の『論語』とぶつけ合わせ、テクノロジーが進化する中で人間が築くべき信頼の本質に迫ります。あなたの明日の仕事に役立つ、AIと共存しながら信頼を深めるヒントをお届けします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260724-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260724-2100.mp3" length="2677392" type="audio/mpeg"/>
+      <pubDate>Fri, 24 Jul 2026 21:00:43 +0000</pubDate>
+      <itunes:duration>7:26</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>「信なくんば立たず」元テニス選手逮捕に見る、信頼の重みと脆さ</title>
       <description>全仏オープン優勝経験を持つ元プロテニス選手の詐欺容疑での逮捕は、社会に大きな衝撃を与えました。このニュースから、私たちはビジネスパーソンにとって最も大切な「信頼」について深く考えさせられます。今回は孔子の『論語』をひも解き、信頼の構築、維持、そして失った時の影響について、時代を超えた知恵を探ります。</description>
