@@ -737,6 +737,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260724/k10015185181000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260725-2100",
+      "title": "マキャヴェリが説く、リーダーの信頼と『憎悪』の境界線",
+      "filename": "ep-20260725-2100.mp3",
+      "pubdate": "2026-07-25T21:00:42.425253+00:00",
+      "duration": 358,
+      "bytes": 2149920,
+      "show_notes": "今週は、国際刑事裁判所の検察官が性的不正行為の疑惑で解任投票にかけられたニュースから、マキャヴェリの『君主論』をひも解きます。権力者がいかにして信頼を失い、憎悪を避けられずに失脚するのか。リーダーが「信頼を築き、保ち続ける」ために不可欠な、現代における名声と倫理のバランスについて考察します。",
+      "classic_title": "君主論",
+      "classic_author": "ニッコロ・マキャヴェリ",
+      "news": [
+        {
+          "title": "ICC member states vote to remove chief prosecutor Karim Khan",
+          "source": "NPR Topics: World",
+          "link": "https://www.npr.org/2026/07/24/g-s1-135498/icc-court-prosecutor-karim-khan-vote"
+        }
+      ]
     }
   ]
 }

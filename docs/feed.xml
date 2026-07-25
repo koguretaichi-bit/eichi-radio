@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Jul 2026 21:01:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 21:01:09 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>マキャヴェリが説く、リーダーの信頼と『憎悪』の境界線</title>
+      <description>今週は、国際刑事裁判所の検察官が性的不正行為の疑惑で解任投票にかけられたニュースから、マキャヴェリの『君主論』をひも解きます。権力者がいかにして信頼を失い、憎悪を避けられずに失脚するのか。リーダーが「信頼を築き、保ち続ける」ために不可欠な、現代における名声と倫理のバランスについて考察します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260725-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260725-2100.mp3" length="2149920" type="audio/mpeg"/>
+      <pubDate>Sat, 25 Jul 2026 21:00:42 +0000</pubDate>
+      <itunes:duration>5:58</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>AI時代の「信」の力 ～国会のAI活用に見る信頼構築の極意～</title>
       <description>効率化の波は国会にも。AIが法案や想定問答を作成する時代、私たちは何に「信」を置けば良いのでしょうか？ 今回は、最新ニュースを孔子の『論語』とぶつけ合わせ、テクノロジーが進化する中で人間が築くべき信頼の本質に迫ります。あなたの明日の仕事に役立つ、AIと共存しながら信頼を深めるヒントをお届けします。</description>
