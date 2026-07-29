@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Jul 2026 21:01:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 21:04:31 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>敵を招き、信頼を築く〜秀吉の宴席とマキャヴェリの知恵</title>
+      <description>権力の頂点に立とうとする羽柴秀吉が、敵対勢力だった毛利家を大坂城で盛大にもてなしたというニュース。この出来事を、ニッコロ・マキャヴェリの古典『君主論』のレンズで読み解き、現代ビジネスにおける「信頼構築」の奥深さを探ります。力だけでなく、人心掌握の術がいかに重要か、ミシェルさんと先生が深く掘り下げます。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260729-2104.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260729-2104.mp3" length="2188656" type="audio/mpeg"/>
+      <pubDate>Wed, 29 Jul 2026 21:04:06 +0000</pubDate>
+      <itunes:duration>6:04</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>危機に立つ組織の信頼：『貞観政要』から学ぶリーダーの責任と姿勢</title>
       <description>今週は、熊本の地震で発生した日本製紙工場の事故を取り上げ、古典『貞観政要』の知恵を紐解きます。未曽有の危機に直面した時、企業やリーダーはどう振る舞うべきか。従業員、地域社会、そして顧客からの信頼をいかに築き、保ち、そしてもし揺らいだ時にどう取り戻すかについて、実践的な視点を提供します。</description>
