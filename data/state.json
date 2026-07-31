@@ -845,6 +845,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260730/k10015191081000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260731-2100",
+      "title": "秩序と人道のはざまで信頼を築く〜マキャヴェリ『君主論』とスペイン移民危機",
+      "filename": "ep-20260731-2100.mp3",
+      "pubdate": "2026-07-31T21:00:35.807719+00:00",
+      "duration": 502,
+      "bytes": 3017664,
+      "show_notes": "スペインの国境で起こった大規模な移民流入のニュースを題材に、マキャヴェリの『君主論』を読み解きます。国家が秩序維持と人道のジレンマに直面する中で、リーダーがいかに国民や国際社会からの信頼を築き、保ち、取り戻すか。古典の知恵から、ビジネスパーソンが組織や顧客との信頼関係を深めるための実践的な視点を探ります。",
+      "classic_title": "君主論",
+      "classic_author": "ニッコロ・マキャヴェリ",
+      "news": [
+        {
+          "title": "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
+          "source": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }
