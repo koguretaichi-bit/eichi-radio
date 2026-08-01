@@ -863,6 +863,24 @@
           "link": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
         }
       ]
+    },
+    {
+      "id": "ep-20260801-2100",
+      "title": "信頼の礎：「民信なくば立たず」とボットチの真実",
+      "filename": "ep-20260801-2100.mp3",
+      "pubdate": "2026-08-01T21:00:39.997779+00:00",
+      "duration": 367,
+      "bytes": 2206224,
+      "show_notes": "今日の『アイディアのアウフヘーベン』では、トランプ政権がリフレクティング・プールの破損責任を認めざるを得なかったニュースを題材に、孔子の『論語』が説く「信」の教えを紐解きます。真実と向き合い、責任を果たすことが、いかにビジネスにおける信頼構築に不可欠であるかを深く考察していきます。",
+      "classic_title": "論語",
+      "classic_author": "孔子",
+      "news": [
+        {
+          "title": "Trump administration drops Reflecting Pool vandalism charge and admits 'botched' repairs",
+          "source": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cz05yx5dd7yo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }
