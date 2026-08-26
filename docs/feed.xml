@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Aug 2026 21:01:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 21:02:46 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>失われた「信」と信頼の再構築：小学館問題から学ぶ論語の教え</title>
+      <description>今日の『アイディアのアウフヘーベン』では、小学館の漫画家起用問題を取り上げます。第三者委員会が「人権侵害を助長または加担」と評価したこのニュースを、孔子の『論語』、特に「信」の概念から深掘り。ビジネスパーソンが信頼を築き、失った信頼を取り戻すための実践的なヒントを、先生とミシェルが考察します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260826-2102.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260826-2102.mp3" length="2540880" type="audio/mpeg"/>
+      <pubDate>Wed, 26 Aug 2026 21:02:18 +0000</pubDate>
+      <itunes:duration>7:03</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>ミャンマー政権の情報操作とマキャヴェリの『君主論』：見せかけの信頼と真の信頼</title>
       <description>ミャンマーの民主化指導者、アウン・サン・スー・チー氏の写真公開のニュース。この政権の「思惑」を、マキャヴェリの『君主論』の視点から読み解きます。権力者がいかにして人々の「信頼」を操作し、権力を維持しようとするのか。そして、ビジネスの現場で、私たちはどうすれば「見せかけの信頼」に惑わされず、真の信頼を築けるのか、そのヒントを探ります。</description>
