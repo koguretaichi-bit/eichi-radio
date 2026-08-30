@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 29 Aug 2026 21:01:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 21:01:14 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>予測不能な時代に「信頼」を築くには？〜『自省録』が教えるコントロールの知恵</title>
+      <description>今日のアイディアのアウフヘーベンは、JAXAの「みちびき」打ち上げ延期のニュースを取り上げます。台風による不測の事態に対し、組織はどのように対応し、信頼を保ったのでしょうか。ローマ皇帝マルクス・アウレリウスの『自省録』から、制御できることとできないことの賢い区別が、予測不能な現代におけるビジネスパーソンの信頼構築にいかに役立つかを探ります。明日の仕事に活かせる視点をアウフヘーベンします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260830-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260830-2100.mp3" length="2699280" type="audio/mpeg"/>
+      <pubDate>Sun, 30 Aug 2026 21:00:40 +0000</pubDate>
+      <itunes:duration>7:29</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>不祥事と信頼：『論語』に学ぶ組織の『信』</title>
       <description>韓国サッカー協会の不祥事報道から、ビジネスにおける「信頼構築」の根源を掘り下げます。孔子の教え『論語』が説く『信』の真髄に触れ、一度失った信頼をどう取り戻し、明日からの仕事で実践できる行動へと止揚させていくかを探ります。組織の倫理と個人の誠実さが織りなす信頼の網の目を解き明かしましょう。</description>
