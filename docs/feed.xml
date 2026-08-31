@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 30 Aug 2026 21:01:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 21:02:25 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>地図が示す真実、権力が描く幻影〜信頼の基盤としての客観性〜</title>
+      <description>今日のニュースは、トランプ前大統領が地図アプリの地名変更をAppleに求めたというもの。一見ささやかな要求の裏に潜む「真実の操作」の誘惑を、プラトンの『国家』における「洞窟の比喩」を通して深掘りします。ビジネスにおいて、客観的な事実への誠実な向き合い方が、いかに信頼構築の要となるかを考察します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260831-2101.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260831-2101.mp3" length="2894688" type="audio/mpeg"/>
+      <pubDate>Mon, 31 Aug 2026 21:01:49 +0000</pubDate>
+      <itunes:duration>8:02</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>予測不能な時代に「信頼」を築くには？〜『自省録』が教えるコントロールの知恵</title>
       <description>今日のアイディアのアウフヘーベンは、JAXAの「みちびき」打ち上げ延期のニュースを取り上げます。台風による不測の事態に対し、組織はどのように対応し、信頼を保ったのでしょうか。ローマ皇帝マルクス・アウレリウスの『自省録』から、制御できることとできないことの賢い区別が、予測不能な現代におけるビジネスパーソンの信頼構築にいかに役立つかを探ります。明日の仕事に活かせる視点をアウフヘーベンします。</description>

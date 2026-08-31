@@ -1007,6 +1007,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260803/k10015195091000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260831-2101",
+      "title": "地図が示す真実、権力が描く幻影〜信頼の基盤としての客観性〜",
+      "filename": "ep-20260831-2101.mp3",
+      "pubdate": "2026-08-31T21:01:49.250449+00:00",
+      "duration": 482,
+      "bytes": 2894688,
+      "show_notes": "今日のニュースは、トランプ前大統領が地図アプリの地名変更をAppleに求めたというもの。一見ささやかな要求の裏に潜む「真実の操作」の誘惑を、プラトンの『国家』における「洞窟の比喩」を通して深掘りします。ビジネスにおいて、客観的な事実への誠実な向き合い方が、いかに信頼構築の要となるかを考察します。",
+      "classic_title": "国家",
+      "classic_author": "プラトン",
+      "news": [
+        {
+          "title": "Trump pushes Apple to change 'Lake Ontario' to 'Lake America' on its maps",
+          "source": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c2l80eq5lxno?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }
