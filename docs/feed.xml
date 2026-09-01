@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 31 Aug 2026 21:02:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 21:01:22 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>接待問題に『論語』が問う「信なくば立たず」〜組織の信頼を築くために〜</title>
+      <description>今日のニュースは、韓国サッカー協会の接待問題です。この組織の信頼を揺るがす出来事を、東洋の古典『論語』の視点から掘り下げます。ビジネスパーソンが、自身のそして所属する組織の「信頼」をいかに築き、保ち、そして失った時にどう取り戻すか、実践的なヒントを探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260901-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260901-2100.mp3" length="2721312" type="audio/mpeg"/>
+      <pubDate>Tue, 01 Sep 2026 21:00:52 +0000</pubDate>
+      <itunes:duration>7:33</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>地図が示す真実、権力が描く幻影〜信頼の基盤としての客観性〜</title>
       <description>今日のニュースは、トランプ前大統領が地図アプリの地名変更をAppleに求めたというもの。一見ささやかな要求の裏に潜む「真実の操作」の誘惑を、プラトンの『国家』における「洞窟の比喩」を通して深掘りします。ビジネスにおいて、客観的な事実への誠実な向き合い方が、いかに信頼構築の要となるかを考察します。</description>
