@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 01 Sep 2026 21:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 21:00:58 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>信頼の足元を固めるには〜韓国サッカー協会不祥事と孔子の『信』〜</title>
+      <description>今日の『アイディアのアウフヘーベン』は、韓国サッカー協会の不祥事を取り上げます。外国人審判員への性的接待疑惑というニュースから、孔子の『論語』が説く「信」の重要性を深掘り。組織や個人の信頼がどのように築かれ、またいかに簡単に失われるのかを考察し、ビジネスパーソンが明日から実践できる「信頼の足元を固める」ヒントをお届けします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260902-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260902-2100.mp3" length="2094624" type="audio/mpeg"/>
+      <pubDate>Wed, 02 Sep 2026 21:00:34 +0000</pubDate>
+      <itunes:duration>5:49</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>接待問題に『論語』が問う「信なくば立たず」〜組織の信頼を築くために〜</title>
       <description>今日のニュースは、韓国サッカー協会の接待問題です。この組織の信頼を揺るがす出来事を、東洋の古典『論語』の視点から掘り下げます。ビジネスパーソンが、自身のそして所属する組織の「信頼」をいかに築き、保ち、そして失った時にどう取り戻すか、実践的なヒントを探ります。</description>
