@@ -1115,6 +1115,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260808/k10015200271000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260907-2100",
+      "title": "データ時代の『信』：Grindrの教訓から学ぶ信頼構築",
+      "filename": "ep-20260907-2100.mp3",
+      "pubdate": "2026-09-07T21:00:44.690846+00:00",
+      "duration": 332,
+      "bytes": 1992528,
+      "show_notes": "出会い系アプリ「Grindr」がユーザーのHIVステータスを共有し、多額の賠償金を支払うことになったニュース。この事例は、現代ビジネスにおいて「情報」を預かる企業がいかに顧客との信頼関係を築き、維持するべきかという根源的な問いを投げかけます。古典『論語』の「信」の教えから、データが絡むビジネスにおける信頼構築の本質を深掘りします。",
+      "classic_title": "論語",
+      "classic_author": "孔子",
+      "news": [
+        {
+          "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
+          "source": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }
