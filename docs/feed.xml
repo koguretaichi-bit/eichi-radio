@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Sep 2026 21:01:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 21:04:03 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>「信なくば立たず」組織の信頼を取り戻す道しるべ</title>
+      <description>韓国サッカー協会を巡る接待問題のニュースは、組織の信頼がいかに脆く、そして重要であるかを浮き彫りにしました。今回は、孔子の『論語』が説く「信」の概念を紐解き、ビジネスパーソンが日々の業務で「信頼を築き、保ち、そして失った信頼を取り戻す」ための実践的な視点を深掘りします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260917-2102.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260917-2102.mp3" length="2544624" type="audio/mpeg"/>
+      <pubDate>Thu, 17 Sep 2026 21:02:25 +0000</pubDate>
+      <itunes:duration>7:04</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>信頼は土台、見せかけは瓦解する：韓国サッカー協会の不祥事を『論語』で読み解く</title>
       <description>今日の『アイディアのアウフヘーベン』は、韓国サッカー協会の不祥事報道から、ビジネスにおける「信頼構築」の重要性を深掘りします。孔子の古典『論語』の教えに耳を傾けながら、組織の倫理やリーダーシップが信頼にどう影響するかを考察。見せかけではない真の信頼を築き、保ち、そして失った信頼を取り戻すための実践的な視点をお届けします。</description>
