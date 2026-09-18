@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Thu, 17 Sep 2026 21:04:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 21:01:57 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>信頼の足元を掬われる前に〜孔子『論語』に学ぶビジネスの『信』</title>
+      <description>雑誌グッズの大量注文キャンセル事件は、オンラインビジネスにおける信頼の脆さを浮き彫りにしました。今回は、孔子の『論語』に記された「信」の概念を手がかりに、企業がどのようにして顧客との信頼を築き、守り、そして組織内部の信頼を醸成していくべきかについて、実務的な視点からアウフヘーベンしていきます。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260918-2101.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260918-2101.mp3" length="2714544" type="audio/mpeg"/>
+      <pubDate>Fri, 18 Sep 2026 21:01:17 +0000</pubDate>
+      <itunes:duration>7:32</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>「信なくば立たず」組織の信頼を取り戻す道しるべ</title>
       <description>韓国サッカー協会を巡る接待問題のニュースは、組織の信頼がいかに脆く、そして重要であるかを浮き彫りにしました。今回は、孔子の『論語』が説く「信」の概念を紐解き、ビジネスパーソンが日々の業務で「信頼を築き、保ち、そして失った信頼を取り戻す」ための実践的な視点を深掘りします。</description>
