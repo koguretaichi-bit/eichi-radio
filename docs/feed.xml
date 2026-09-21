@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 20 Sep 2026 21:01:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 21:01:04 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>『孫子』に学ぶ「戦わずして勝つ」同盟とビジネス信頼術</title>
+      <description>今週は、サウジアラビア、トルコ、パキスタンの共同防衛協定のニュースを深掘り。国家間の同盟という『孫子』の兵法に通じるテーマから、ビジネスにおける提携やアライアンスで「信頼を築く・保つ・取り戻す」ための実践的な視点を、賢者と学び手が対話します。形式的な契約の裏にある、本当の信頼とは何かを探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260921-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260921-2100.mp3" length="1962432" type="audio/mpeg"/>
+      <pubDate>Mon, 21 Sep 2026 21:00:40 +0000</pubDate>
+      <itunes:duration>5:27</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>権力者の「見せ方」と信頼のあいだ〜アウン・サン・スー・チー氏の写真公開からマキャヴェリを読み解く</title>
       <description>『アイディアのアウフヘーベン』。今回は、ミャンマーで公開されたアウン・サン・スー・チー氏の写真が持つ政治的意図を、マキャヴェリの『君主論』を通して読み解きます。リーダーが「情報」をどう見せ、どうコントロールするかは、現代ビジネスにおける「信頼構築」においても極めて重要なテーマ。透明性と戦略性の間で、私たちはどう信頼を築くべきか、その本質に迫ります。</description>
