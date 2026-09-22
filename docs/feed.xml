@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 21 Sep 2026 21:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 21:01:38 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>AIの「自然状態」？ ホッブズが問いかける現代の信頼</title>
+      <description>生成AIの開発が一時中断されたというニュースを、トマス・ホッブズの『リヴァイアサン』をレンズにして読み解きます。人間が作り出したものが制御不能になる「おそれ」と、秩序を保つための「社会契約」の思想を重ね合わせ、ビジネスにおける新しい技術やプロジェクト導入時に、いかに信頼を築き、リスクを管理するかのヒントを探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260922-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260922-2100.mp3" length="2506176" type="audio/mpeg"/>
+      <pubDate>Tue, 22 Sep 2026 21:00:48 +0000</pubDate>
+      <itunes:duration>6:57</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>『孫子』に学ぶ「戦わずして勝つ」同盟とビジネス信頼術</title>
       <description>今週は、サウジアラビア、トルコ、パキスタンの共同防衛協定のニュースを深掘り。国家間の同盟という『孫子』の兵法に通じるテーマから、ビジネスにおける提携やアライアンスで「信頼を築く・保つ・取り戻す」ための実践的な視点を、賢者と学び手が対話します。形式的な契約の裏にある、本当の信頼とは何かを探ります。</description>
