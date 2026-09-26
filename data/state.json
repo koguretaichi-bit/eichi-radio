@@ -1313,6 +1313,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260806/k10015197961000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260926-2100",
+      "title": "機械の楽園は信頼を蝕むか？〜ウェーバーが説く合理化と人間性の止揚",
+      "filename": "ep-20260926-2100.mp3",
+      "pubdate": "2026-09-26T21:00:37.880193+00:00",
+      "duration": 367,
+      "bytes": 2205072,
+      "show_notes": "今回の『アイディアのアウフヘーベン』は、ローマ教皇の「機械の楽園」が人類を蝕むという警鐘と、マックス・ウェーバーの古典『プロテスタンティズムの倫理と資本主義の精神』をぶつけ合わせます。ビジネスパーソンが、効率を追求する中で見失いがちな人間性や倫理観、そしてそれが信頼構築にどう影響するかについて深く掘り下げます。",
+      "classic_title": "プロテスタンティズムの倫理と資本主義の精神",
+      "classic_author": "マックス・ウェーバー",
+      "news": [
+        {
+          "title": "Pope Leo warns a 'paradise of machines' could undermine humanity on his France visit",
+          "source": "NPR Topics: World",
+          "link": "https://www.npr.org/2026/09/25/nx-s1-5981140/pope-leo-france"
+        }
+      ]
     }
   ]
 }
