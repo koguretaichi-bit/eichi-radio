@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 27 Sep 2026 21:01:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 21:01:12 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>国際防衛協定と『君主論』に学ぶ、ビジネスにおける「信頼」の現実</title>
+      <description>サウジアラビア、トルコ、パキスタンによる共同防衛協定のニュースから、古典『君主論』を読み解きます。国家間の「約束」がどこまで信じられるのか、マキャベリの現実主義的な視点から、ビジネスにおける「信頼構築」の本質と、理想と現実のギャップを埋めるための戦略を探ります。契約書だけでは守れない信頼をどう築くか、具体的なヒントをお届けします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260928-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260928-2100.mp3" length="2631456" type="audio/mpeg"/>
+      <pubDate>Mon, 28 Sep 2026 21:00:41 +0000</pubDate>
+      <itunes:duration>7:18</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>信頼を失った組織が『信』を取り戻す道：サッカー協会問題と孔子の知恵</title>
       <description>今回の『アイディアのアウフヘーベン』は、韓国サッカー協会の倫理問題と謝罪のニュースを取り上げます。この組織の信頼失墜を、孔子の『論語』が説く『信』という概念のレンズを通して深く掘り下げます。ビジネスの現場で信頼を築き、保ち、そして失った信頼を取り戻すための実践的なヒントを、先生とミシェルが対話しながら探ります。</description>
