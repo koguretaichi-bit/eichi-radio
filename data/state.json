@@ -1367,6 +1367,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260808/k10015199851000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20260929-2100",
+      "title": "介入の引き際、信頼の育み方 ～老子の知恵に学ぶ「無為」のマネジメント～",
+      "filename": "ep-20260929-2100.mp3",
+      "pubdate": "2026-09-29T21:00:41.028306+00:00",
+      "duration": 390,
+      "bytes": 2343888,
+      "show_notes": "米国がイラクから20年以上の駐留を終えるニュース。この長きにわたる介入とその撤退は、老子の『道徳経』に説かれる「無為自然」の思想とどう響き合うのか？過度な介入が時に信頼を損ねる現実から、ビジネスや人間関係における「引き際の美学」と「信頼構築の鍵」を紐解きます。",
+      "classic_title": "道徳経",
+      "classic_author": "老子",
+      "news": [
+        {
+          "title": "After more than two decades, U.S. forces prepare to leave Iraq",
+          "source": "NPR Topics: World",
+          "link": "https://www.npr.org/2026/09/27/nx-s1-5981123/after-more-than-two-decades-u-s-forces-prepare-to-leave-iraq"
+        }
+      ]
     }
   ]
 }
