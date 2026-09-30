@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 21:01:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 21:01:36 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>権力者の信頼はどこへ向かうのか？〜マキャヴェリとFRB理事解任検討報道〜</title>
+      <description>今週は、トランプ大統領がFRB理事の解任を検討しているという報道を、ルネサンスの思想家マキャヴェリの『君主論』のレンズを通して読み解きます。権力者がいかに信頼を築き、あるいは失うのか。ビジネスパーソンの皆さんが組織の中で「信頼」を巡る葛藤に直面した際に役立つ視点を探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260930-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20260930-2100.mp3" length="3121200" type="audio/mpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:00:53 +0000</pubDate>
+      <itunes:duration>8:40</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>介入の引き際、信頼の育み方 ～老子の知恵に学ぶ「無為」のマネジメント～</title>
       <description>米国がイラクから20年以上の駐留を終えるニュース。この長きにわたる介入とその撤退は、老子の『道徳経』に説かれる「無為自然」の思想とどう響き合うのか？過度な介入が時に信頼を損ねる現実から、ビジネスや人間関係における「引き際の美学」と「信頼構築の鍵」を紐解きます。</description>
