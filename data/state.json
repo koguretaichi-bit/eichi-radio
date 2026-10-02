@@ -1421,6 +1421,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260808/k10015200271000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20261002-2100",
+      "title": "『許容される犠牲』の影：プラトン『国家』が問う組織の正義と信頼",
+      "filename": "ep-20261002-2100.mp3",
+      "pubdate": "2026-10-02T21:00:41.789831+00:00",
+      "duration": 371,
+      "bytes": 2227824,
+      "show_notes": "今日のニュースは、軍事作戦における民間人の犠牲を巡る兵士たちの匿名告発です。この重いテーマを、プラトンの古典『国家』が探求した『正義』という概念を通じて読み解き、企業や組織における『信頼構築』にどう活かすべきかを先生とミシェルが考察します。",
+      "classic_title": "国家",
+      "classic_author": "プラトン",
+      "news": [
+        {
+          "title": "Cloaked in anonymity, Israeli soldiers describe mass civilian killings in 'NAZA'",
+          "source": "NPR Topics: World",
+          "link": "https://www.npr.org/2026/10/02/nx-s1-5987714/naza-review-israel-palestine"
+        }
+      ]
     }
   ]
 }
