@@ -1439,6 +1439,24 @@
           "link": "https://www.npr.org/2026/10/02/nx-s1-5987714/naza-review-israel-palestine"
         }
       ]
+    },
+    {
+      "id": "ep-20261003-2100",
+      "title": "AIが揺るがす真実：デカルトの「疑う」精神で信頼を築く",
+      "filename": "ep-20261003-2100.mp3",
+      "pubdate": "2026-10-03T21:00:39.300882+00:00",
+      "duration": 427,
+      "bytes": 2562192,
+      "show_notes": "AIが生成した被害者の映像が裁判の判決を破棄させたニュースから、現代における情報の真実性と信頼性について考えます。ルネ・デカルトの『方法序説』における「疑う」精神を手がかりに、AI時代に私たちがどう情報と向き合い、ビジネスにおける信頼を構築していくべきか、実践的な視点を提供します。",
+      "classic_title": "方法序説",
+      "classic_author": "ルネ・デカルト",
+      "news": [
+        {
+          "title": "US road rage killer's sentence quashed because AI video of victim was shown in court",
+          "source": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/cwgkvygg5nzvo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }

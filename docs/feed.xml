@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Fri, 02 Oct 2026 21:01:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 21:01:11 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>AIが揺るがす真実：デカルトの「疑う」精神で信頼を築く</title>
+      <description>AIが生成した被害者の映像が裁判の判決を破棄させたニュースから、現代における情報の真実性と信頼性について考えます。ルネ・デカルトの『方法序説』における「疑う」精神を手がかりに、AI時代に私たちがどう情報と向き合い、ビジネスにおける信頼を構築していくべきか、実践的な視点を提供します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261003-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261003-2100.mp3" length="2562192" type="audio/mpeg"/>
+      <pubDate>Sat, 03 Oct 2026 21:00:39 +0000</pubDate>
+      <itunes:duration>7:07</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>『許容される犠牲』の影：プラトン『国家』が問う組織の正義と信頼</title>
       <description>今日のニュースは、軍事作戦における民間人の犠牲を巡る兵士たちの匿名告発です。この重いテーマを、プラトンの古典『国家』が探求した『正義』という概念を通じて読み解き、企業や組織における『信頼構築』にどう活かすべきかを先生とミシェルが考察します。</description>
