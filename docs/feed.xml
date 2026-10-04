@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 03 Oct 2026 21:01:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 21:01:06 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>『民の信なくば立たず』不信の時代にリーダーが築く『信』とは</title>
+      <description>今日の『アイディアのアウフヘーベン』は、ブラジル大統領選で有権者が既存の候補者に不信を抱いているというニュースを深掘りします。なぜ人々はリーダーを信頼できなくなるのか？そして、リーダーはどのようにして信頼を築き、維持すれば良いのか？孔子の『論語』から「民の信なくば立たず」という言葉をひも解き、現代ビジネスにおける「信頼構築」の本質と実践的なヒントを探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261004-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261004-2100.mp3" length="2583216" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 2026 21:00:36 +0000</pubDate>
+      <itunes:duration>7:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>AIが揺るがす真実：デカルトの「疑う」精神で信頼を築く</title>
       <description>AIが生成した被害者の映像が裁判の判決を破棄させたニュースから、現代における情報の真実性と信頼性について考えます。ルネ・デカルトの『方法序説』における「疑う」精神を手がかりに、AI時代に私たちがどう情報と向き合い、ビジネスにおける信頼を構築していくべきか、実践的な視点を提供します。</description>
