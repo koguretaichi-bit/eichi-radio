@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 05 Oct 2026 21:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 21:01:27 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>キャンセル癖と信頼の「土台」：論語に学ぶビジネスパーソンの誠実さ</title>
+      <description>人気雑誌グッズの大量キャンセル事件は、現代社会における「約束」と「誠実さ」のあり方を問い直します。本日の『アイディアのアウフヘーベン』では、『論語』の「信」の概念を軸に、個人の無責任な行動がいかにビジネスの信頼を蝕むか、そして私たちはどうすれば信頼の土台を築き、維持できるのかを先生とミシェルが考察します。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261006-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261006-2100.mp3" length="2489472" type="audio/mpeg"/>
+      <pubDate>Tue, 06 Oct 2026 21:00:44 +0000</pubDate>
+      <itunes:duration>6:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>『信』なくば、何にもならない〜韓国サッカー協会の不祥事から探る信頼回復の処方箋</title>
       <description>韓国のサッカー協会で報じられた接待問題は、組織の信頼が揺らぐ深刻な事態です。このニュースから、私たちは論語に説かれる「信」の重要性を紐解きます。信頼の失墜を防ぎ、一度失われた信頼をいかに取り戻すか。日々のビジネスにおける倫理と誠実さについて考え、明日から実践できる視点を提供します。</description>
