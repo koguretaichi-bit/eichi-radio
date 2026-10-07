@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Oct 2026 21:01:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 21:01:11 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>信頼を裏切った組織の再生術：『論語』に学ぶ「信」の重み</title>
+      <description>今回の『アイディアのアウフヘーベン』では、小学館の漫画家起用問題を取り上げます。第三者委員会が「人権侵害への助長または加担」と評価したこの事態から、私たちは信頼構築の何を学ぶべきでしょうか。古典『論語』をひも解き、孔子の「信」の教えを通して、組織や個人が失われた信頼を取り戻すための視点を探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261007-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261007-2100.mp3" length="2284848" type="audio/mpeg"/>
+      <pubDate>Wed, 07 Oct 2026 21:00:45 +0000</pubDate>
+      <itunes:duration>6:20</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>キャンセル癖と信頼の「土台」：論語に学ぶビジネスパーソンの誠実さ</title>
       <description>人気雑誌グッズの大量キャンセル事件は、現代社会における「約束」と「誠実さ」のあり方を問い直します。本日の『アイディアのアウフヘーベン』では、『論語』の「信」の概念を軸に、個人の無責任な行動がいかにビジネスの信頼を蝕むか、そして私たちはどうすれば信頼の土台を築き、維持できるのかを先生とミシェルが考察します。</description>
