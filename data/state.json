@@ -1529,6 +1529,24 @@
           "link": "http://www3.nhk.or.jp/news/html/20260803/k10015195291000.html"
         }
       ]
+    },
+    {
+      "id": "ep-20261008-2100",
+      "title": "『君主論』から読み解く、リーダーの『安定』が『私利私欲』と疑われる時：イタリア選挙改革と信頼のジレンマ",
+      "filename": "ep-20261008-2100.mp3",
+      "pubdate": "2026-10-08T21:00:53.228495+00:00",
+      "duration": 437,
+      "bytes": 2623536,
+      "show_notes": "今回の『アイディアのアウフヘーベン』は、イタリアで進む選挙制度改革を巡る与野党の攻防を取り上げます。首相が『安定』を訴える一方で、野党は『権力維持の画策』だと非難。この状況を、マキャヴェリの『君主論』の知見から深掘りし、ビジネスパーソンが組織内で『信頼を築くリーダー』であるために何ができるか、そのヒントを探ります。",
+      "classic_title": "君主論",
+      "classic_author": "ニッコロ・マキャヴェリ",
+      "news": [
+        {
+          "title": "Italy approves elections overhaul as opposition accuse Meloni of 'scam'",
+          "source": "BBC News",
+          "link": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ]
 }

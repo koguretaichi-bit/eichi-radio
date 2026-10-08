@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 21:01:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 21:01:24 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>『君主論』から読み解く、リーダーの『安定』が『私利私欲』と疑われる時：イタリア選挙改革と信頼のジレンマ</title>
+      <description>今回の『アイディアのアウフヘーベン』は、イタリアで進む選挙制度改革を巡る与野党の攻防を取り上げます。首相が『安定』を訴える一方で、野党は『権力維持の画策』だと非難。この状況を、マキャヴェリの『君主論』の知見から深掘りし、ビジネスパーソンが組織内で『信頼を築くリーダー』であるために何ができるか、そのヒントを探ります。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261008-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261008-2100.mp3" length="2623536" type="audio/mpeg"/>
+      <pubDate>Thu, 08 Oct 2026 21:00:53 +0000</pubDate>
+      <itunes:duration>7:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>信頼を裏切った組織の再生術：『論語』に学ぶ「信」の重み</title>
       <description>今回の『アイディアのアウフヘーベン』では、小学館の漫画家起用問題を取り上げます。第三者委員会が「人権侵害への助長または加担」と評価したこの事態から、私たちは信頼構築の何を学ぶべきでしょうか。古典『論語』をひも解き、孔子の「信」の教えを通して、組織や個人が失われた信頼を取り戻すための視点を探ります。</description>
