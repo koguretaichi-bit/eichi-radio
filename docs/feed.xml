@@ -13,7 +13,7 @@
       <link>https://koguretaichi-bit.github.io/eichi-radio</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Oct 2026 21:01:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 21:01:18 +0000</lastBuildDate>
     <itunes:author>木暮太一</itunes:author>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:image href="https://koguretaichi-bit.github.io/eichi-radio/cover.jpg"/>
@@ -24,6 +24,15 @@
     </itunes:owner>
     <itunes:subtitle>ニュース×古典を止揚して、新しい視点を生む</itunes:subtitle>
     <itunes:summary>今日のニュース（正）を、古典の知恵（反）でぶつけ合わせ、より高い視点へと止揚（アウフヘーベン）する。 対立や矛盾を切り捨てるのではなく、抱え込んで一段上の理解へ——。 賢者役と聞き手役の対話で、毎日のニュースを古典から読み解く、完全AI自動生成のラジオ番組です。</itunes:summary>
+    <item>
+      <title>監視と信頼：『リヴァイアサン』が問いかける安全と自由のバランス</title>
+      <description>犯罪対策としての通信アプリ解析の検討。このニュースは、ホッブズの『リヴァイアサン』が描く社会契約における「安全」と「自由」のトレードオフを現代に問いかけます。ビジネスパーソンが、組織や顧客との間で信頼を築く上で、監視とプライバシーのバランスをどう見極めるべきか、古典の知恵から深掘りします。</description>
+      <guid isPermaLink="false">https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261009-2100.mp3</guid>
+      <enclosure url="https://koguretaichi-bit.github.io/eichi-radio/episodes/ep-20261009-2100.mp3" length="2211696" type="audio/mpeg"/>
+      <pubDate>Fri, 09 Oct 2026 21:00:43 +0000</pubDate>
+      <itunes:duration>6:08</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     <item>
       <title>『君主論』から読み解く、リーダーの『安定』が『私利私欲』と疑われる時：イタリア選挙改革と信頼のジレンマ</title>
       <description>今回の『アイディアのアウフヘーベン』は、イタリアで進む選挙制度改革を巡る与野党の攻防を取り上げます。首相が『安定』を訴える一方で、野党は『権力維持の画策』だと非難。この状況を、マキャヴェリの『君主論』の知見から深掘りし、ビジネスパーソンが組織内で『信頼を築くリーダー』であるために何ができるか、そのヒントを探ります。</description>
